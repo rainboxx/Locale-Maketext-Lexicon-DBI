@@ -1,0 +1,27 @@
+---
+abstract: 'Database based lexicon fetcher/parser'
+author:
+  - 'Matthias Dietrich <perl@rainboxx.de>'
+build_requires:
+  DBI: 0
+  Locale::Maketext::Lexicon: 0
+  Test::More: 0
+  version: 0
+configure_requires:
+  Module::Build: 0.36
+generated_by: 'Module::Build version 0.3624'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Locale-Maketext-Lexicon-DBI
+provides:
+  Locale::Maketext::Lexicon::DBI:
+    file: lib/Locale/Maketext/Lexicon/DBI.pm
+    version: v0.2.1
+resources:
+  bugtracker: http://rt.cpan.org/NoAuth/Bugs.html?Dist=Locale-Maketext-Lexicon-DBI
+  homepage: http://github.com/rainboxx/Locale-Maketext-Lexicon-DBI/
+  license: http://dev.perl.org/licenses/
+  repository: git://github.com/rainboxx/Locale-Maketext-Lexicon-DBI.git
+version: v0.2.1
